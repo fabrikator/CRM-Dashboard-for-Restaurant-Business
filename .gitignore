@@ -1,0 +1,79 @@
+# =====================================
+# SYSTEM / OS FILES
+# =====================================
+.DS_Store
+Thumbs.db
+
+# =====================================
+# ENVIRONMENT / CONFIG FILES
+# =====================================
+.env
+.env.*
+!.env.example
+auth.json
+
+# =====================================
+# IDE / EDITOR CONFIGS
+# =====================================
+.idea/
+.vscode/
+.fleet/
+.nova/
+.zed/
+.phpactor.json
+
+# =====================================
+# TESTING / CACHE / LOGS
+# =====================================
+*.log
+.phpunit.result.cache
+/.phpunit.cache
+/storage/*.key
+/storage/pail/
+bootstrap/cache/*.php
+
+# =====================================
+# DEPENDENCIES
+# =====================================
+/node_modules/
+/vendor/
+
+# =====================================
+# BUILD / FRONTEND
+# =====================================
+/public/build/
+/public/hot
+
+# =====================================
+# STORAGE / UPLOADS
+# =====================================
+/public/storage
+/storage/app/public
+/storage/framework/cache/data
+/storage/framework/sessions
+/storage/framework/views
+/storage/logs
+
+# =====================================
+# DOCKER (локальная разработка)
+# =====================================
+docker-compose.yml
+docker-compose.override.yml
+docker-compose.local.yml
+Dockerfile
+*.local.yml
+
+# =====================================
+# VAGRANT / HOMESTEAD
+# =====================================
+Homestead.yaml
+Homestead.json
+
+# =====================================
+# MISC
+# =====================================
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
